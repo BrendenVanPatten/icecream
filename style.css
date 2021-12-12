@@ -1,0 +1,34 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://m.media-amazon.com/images/I/61Qdwm7rf0L.jpg);
+}
+
+main{
+  flex-grow: 1;
+}
+
+.heading{
+  background-color: rgb(64, 226, 255);
+}
+
+.img-1{
+  height:150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cart {
+  overflow-y: scroll;
+    height: 90%;
+}
+
+.product{
+  cursor: pointer;
+  
+}
+
+.product:hover{
+  transform: scale(1.02);
+}
